@@ -1,9 +1,6 @@
-const Dog = require('./lib/Dog')
-const Cat = require('./lib/Cat')
+const {Cat, Dog} = require('./lib/')
 
-
-
-
+//institation
 const mabel = new Dog('mabel', 1, 'old english dog')
 const alpha = new Dog('alpha', 3, 'teriior pitbull')
 const bruno = new Dog('bruno', 1.5, 'terrior pitbull')
